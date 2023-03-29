@@ -1,0 +1,208 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.safe_at_work"
+4    android:versionCode="1004"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\natna\Documents\safe_at_work\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\natna\Documents\safe_at_work\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:3:5-67
+12-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:4:5-71
+13-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:4:22-68
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:5:5-80
+14-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:5:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:6:5-79
+15-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:6:22-77
+16    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+16-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:7:5-82
+16-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:7:22-79
+17
+18    <queries>
+18-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:39:6-45:12
+19        <intent>
+19-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:40:4-44:13
+20            <action android:name="android.intent.action.VIEW" />
+20-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:41:6-58
+20-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:41:14-55
+21            <!-- If you don't know the MIME type in advance, set "mimeType" to "*/*". -->
+22            <data android:mimeType="*/*" />
+22-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:43:6-37
+22-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:43:12-34
+23        </intent>
+24    </queries>
+25
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->[com.facebook.flipper:flipper:0.125.0] C:\Users\natna\.gradle\caches\transforms-3\0f2ce0c62ffcfbd4a36c407634c002c9\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+26-->[com.facebook.flipper:flipper:0.125.0] C:\Users\natna\.gradle\caches\transforms-3\0f2ce0c62ffcfbd4a36c407634c002c9\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+27    <!--
+28         Required to keep CPU alive while downloading files
+29        (NOT to keep screen awake)
+30    -->
+31    <uses-permission android:name="android.permission.WAKE_LOCK" />
+31-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-68
+31-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:22-65
+32    <!--
+33         Required to poll the state of the network connection
+34        and respond to changes
+35    -->
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to to download files without a notification -->
+36-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-79
+36-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:22-76
+37    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" /> <!-- Required to access Google Play Licensing -->
+37-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:5-88
+37-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:22-85
+38    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+38-->[:rn-fetch-blob] C:\Users\natna\Documents\safe_at_work\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-73
+38-->[:rn-fetch-blob] C:\Users\natna\Documents\safe_at_work\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-70
+39
+40    <application
+40-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:8:5-38:19
+41        android:name="com.safe_at_work.MainApplication"
+41-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:10:7-38
+42        android:allowBackup="false"
+42-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:14:7-34
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.7.0] C:\Users\natna\.gradle\caches\transforms-3\1bfcf4ac4c803289972c3521f1651e6f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:extractNativeLibs="false"
+46        android:icon="@mipmap/app_logo"
+46-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:12:7-38
+47        android:label="@string/app_name"
+47-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:11:7-39
+48        android:requestLegacyExternalStorage="true"
+48-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:9:7-50
+49        android:roundIcon="@mipmap/app_logo"
+49-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:13:7-43
+50        android:theme="@style/AppTheme"
+50-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:15:7-38
+51        android:usesCleartextTraffic="true" >
+51-->C:\Users\natna\Documents\safe_at_work\android\app\src\debug\AndroidManifest.xml:8:9-44
+52        <activity
+52-->C:\Users\natna\Documents\safe_at_work\android\app\src\debug\AndroidManifest.xml:11:9-111
+53            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+53-->C:\Users\natna\Documents\safe_at_work\android\app\src\debug\AndroidManifest.xml:11:19-83
+54            android:exported="false" />
+54-->C:\Users\natna\Documents\safe_at_work\android\app\src\debug\AndroidManifest.xml:11:84-108
+55        <activity
+55-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:16:7-27:18
+56            android:name="com.safe_at_work.MainActivity"
+56-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:17:9-37
+57            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+57-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:19:9-118
+58            android:exported="true"
+58-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:22:9-32
+59            android:label="@string/app_name"
+59-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:18:9-41
+60            android:launchMode="singleTask"
+60-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:20:9-40
+61            android:windowSoftInputMode="adjustResize" >
+61-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:21:9-51
+62            <intent-filter>
+62-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:23:9-26:25
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:24:13-65
+63-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:24:21-62
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:25:13-73
+65-->C:\Users\natna\Documents\safe_at_work\android\app\src\main\AndroidManifest.xml:25:23-70
+66            </intent-filter>
+67        </activity>
+68
+69        <provider
+70            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+71            android:authorities="com.safe_at_work.provider"
+72            android:exported="false"
+73            android:grantUriPermissions="true" >
+74            <meta-data
+74-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+76                android:resource="@xml/file_viewer_provider_paths" />
+76-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+77        </provider>
+78        <provider
+78-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-45:20
+79            android:name="com.ReactNativeBlobUtil.Utils.FileProvider"
+79-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-70
+80            android:authorities="com.safe_at_work.provider"
+80-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-60
+81            android:exported="false"
+81-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-37
+82            android:grantUriPermissions="true" >
+82-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-47
+83            <meta-data
+83-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+85                android:resource="@xml/provider_paths" />
+85-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+86        </provider>
+87        <provider
+87-->[:react-native-share] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+88            android:name="cl.json.RNShareFileProvider"
+88-->[:react-native-share] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-55
+89            android:authorities="com.safe_at_work.rnshare.fileprovider"
+89-->[:react-native-share] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-72
+90            android:exported="false"
+90-->[:react-native-share] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+91            android:grantUriPermissions="true" >
+91-->[:react-native-share] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-share\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+92            <meta-data
+92-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+93                android:name="android.support.FILE_PROVIDER_PATHS"
+93-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+94                android:resource="@xml/share_download_paths" />
+94-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+95        </provider>
+96        <provider
+96-->[:rn-fetch-blob] C:\Users\natna\Documents\safe_at_work\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
+97            android:name="com.RNFetchBlob.Utils.FileProvider"
+97-->[:rn-fetch-blob] C:\Users\natna\Documents\safe_at_work\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
+98            android:authorities="com.safe_at_work.provider"
+98-->[:rn-fetch-blob] C:\Users\natna\Documents\safe_at_work\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-60
+99            android:exported="false"
+99-->[:rn-fetch-blob] C:\Users\natna\Documents\safe_at_work\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+100            android:grantUriPermissions="true" >
+100-->[:rn-fetch-blob] C:\Users\natna\Documents\safe_at_work\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+101            <meta-data
+101-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+102                android:name="android.support.FILE_PROVIDER_PATHS"
+102-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+103                android:resource="@xml/provider_paths" />
+103-->[:react-native-blob-util] C:\Users\natna\Documents\safe_at_work\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+104        </provider>
+105        <provider
+105-->[androidx.emoji2:emoji2:1.0.0] C:\Users\natna\.gradle\caches\transforms-3\82f7e743a3687307b0a70cce094a1a60\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+106            android:name="androidx.startup.InitializationProvider"
+106-->[androidx.emoji2:emoji2:1.0.0] C:\Users\natna\.gradle\caches\transforms-3\82f7e743a3687307b0a70cce094a1a60\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+107            android:authorities="com.safe_at_work.androidx-startup"
+107-->[androidx.emoji2:emoji2:1.0.0] C:\Users\natna\.gradle\caches\transforms-3\82f7e743a3687307b0a70cce094a1a60\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+108            android:exported="false" >
+108-->[androidx.emoji2:emoji2:1.0.0] C:\Users\natna\.gradle\caches\transforms-3\82f7e743a3687307b0a70cce094a1a60\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+109            <meta-data
+109-->[androidx.emoji2:emoji2:1.0.0] C:\Users\natna\.gradle\caches\transforms-3\82f7e743a3687307b0a70cce094a1a60\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+110                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+110-->[androidx.emoji2:emoji2:1.0.0] C:\Users\natna\.gradle\caches\transforms-3\82f7e743a3687307b0a70cce094a1a60\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+111                android:value="androidx.startup" />
+111-->[androidx.emoji2:emoji2:1.0.0] C:\Users\natna\.gradle\caches\transforms-3\82f7e743a3687307b0a70cce094a1a60\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+112            <meta-data
+112-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\natna\.gradle\caches\transforms-3\73c6c10c2c28db014fe4a7a42c8cf3b4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+113                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+113-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\natna\.gradle\caches\transforms-3\73c6c10c2c28db014fe4a7a42c8cf3b4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+114                android:value="androidx.startup" />
+114-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\natna\.gradle\caches\transforms-3\73c6c10c2c28db014fe4a7a42c8cf3b4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+115        </provider>
+116    </application>
+117
+118</manifest>
